@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Forms</title>
+</head>
+<body>
+    <div>
+        <form action="form.php">
+            
+            <input type="text" placeholder="Enter any text here">
+            <br><hr>
+            <label for="Sectionida">
+                <input type="radio" value="Section A" name="Section" id="Sectionida">Section A
+            </label>
+            <br><hr>
+            <label for="Sectionidb">
+                <input type="radio" value="Section B" name="Section" id="Sectionidb">Section B
+            </label>
+            <br><hr>
+            <label for="Sectionidc">
+                <input type="radio" value="Section C" name="Section" id="Sectionidc">Section C
+            </label>
+            <br><hr>
+            <label for="Canteen">
+                <input type="checkbox" id="Canteen" name="Lunch" value="Lunch"  class="Red">Lunch
+            </label><br>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain the reason for the answer"></textarea>
+            <br><hr>
+            <label for="email">Email - 
+                <input type="email" id="email" pattern="@gmail.com" placeholder="avitansh.april24@gmail.com" required>
+            </label><br><hr>
+            <select name="car" id="car">
+                <option value="no-car">Select your Car</option>
+                <option value="BMW">BMW</option>
+                <option value="Audi">Audi</option>
+                <option value="Mercedes">Mercedes</option>
+            </select>
+        </form>
+
+    </div>
+</body>
+</html>

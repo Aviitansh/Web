@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(249, 171, 82);
+    color: rgb(187, 0, 255);
+}
+#first{
+    background-color: rgb(0, 255, 72);
+    color: yellow;
+}
+#second{
+    background-color: green;
+    color: orangered;
+}
+#third{
+    background-color: brown;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+}

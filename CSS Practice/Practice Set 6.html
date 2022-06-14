@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set 6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: white;
+        }
+
+        header {
+            background-color: black;
+            height: 8vh;
+            width: 100%;
+            text-align: center;
+        }
+
+        header nav ul li {
+            padding: 24px;
+            display: inline-block;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .backgroundIMAGE {
+            width: 100%;
+            height: 25vh;
+            background-color: #80808094;
+            background-image: url(https://media.istockphoto.com/photos/laptop-computer-screen-mockup-template-background-banner-man-hand-picture-id1329619660?b=1&k=20&m=1329619660&s=170667a&w=0&h=pxjIRbfbPvWM9FZydyCd1yRb2phqVZG9jt0T2yCBhbo=);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .left {
+            padding: 24px;
+            width: 33.33vw;
+            height: 100vh;
+            text-align: justify;
+            background-color: rgb(90, 39, 173);
+            flex-direction: left;
+        }
+
+        .middle {
+            padding: 24px;
+            width: 33.33vw;
+            height: 100vh;
+            text-align: justify;
+            background-color: rgb(214, 50, 77);
+            flex-direction: center;
+        }
+
+        .right {
+            padding: 24px;
+            width: 33.33vw;
+            height: 100vh;
+            text-align: justify;
+            background-color: rgb(23, 159, 169);
+            flex-direction: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="backgroundIMAGE"></div>
+    <div class="container">
+        <div class="left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore cupiditate deserunt
+            voluptatum quasi sequi maiores possimus error, aliquam, ullam saepe molestiae facere accusamus voluptatem
+            voluptatibus consequatur qui. Quo maiores cupiditate vel voluptatum fuga nihil?</div>
+        <div class="middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis unde blanditiis deleniti,
+            saepe officia repudiandae provident aspernatur cumque quae, voluptate ducimus quam doloremque error, est hic
+            illo laborum nemo reiciendis nulla cum!</div>
+        <div class="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae voluptatibus commodi
+            pariatur optio quam ab tempore, cumque laboriosam vel laborum, ullam excepturi, enim officiis placeat
+            tempora neque eaque in sequi? Totam, officia! Voluptatem.</div>
+    </div>
+</body>
+
+</html>
